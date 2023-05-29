@@ -1,5 +1,5 @@
 # rutgers23-project-one
-Rutgers23 Data Science Project One Module 7 Group 7
+Rutgers23 Data Science PROJECT ONE Module 7 Group 7
 
 
 **TABLE OF CONTENTS**
@@ -11,19 +11,23 @@ Rutgers23 Data Science Project One Module 7 Group 7
 
 **1-PROJECT DESCRIPTION**
 
-In this assignment, we were tasked with using Python requests, APIs, and JSON dictionaries to answer questions about the relationship between certain meteorological variables and latitude (WeatherPy), as well as to determine the best places for a vacation given the author's climate preferences.
+We were divided into random groups and tasked with creating and presenting a professional-looking research mini-project with the following criteria:
 
-**For WeatherPy:** Dependencies were installed. For a particular day, random combinations of latitude and logitude were generated at set intervals, and then cities close to those coordinates were identified in the citipy dataset and printed. Each city was matched against the data in https://api.openweathermap.org/data/2.5/weather and sequentially printed as meteorlogical data for them was captured in a list, with unmatched cities ignored. After verification of the volume and variables of the list, scatter plots were created from the city data of latitude vs. maximum temperature, humidity, cloudiness, and wind speed. The data was divided into northern hemisphere and southern hemisphere subsets by latitude ranges, and the operation was confirmed by printing out samples. Scatter plots using the same variables as before were created from the data in each hemisphere, this time with a regression model and line added and Pearson's r calculated for each plot. Analysis for each set of scatterplots' linear relationships was provided. 
+    Use Pandas to clean and format the datset(s).
+    Create a Jupyter notebook describing the data exploration and cleanup process.
+    Create a Jupyter notebook illustrating the final data analysis.
+    Use matplotlib to create six to eight visualizations (ideally: two per question) of the data.
+    Save .png images of the visualizations to distribute to the class and instructional team, and for inclusion in the presentation.
+    Create a write-up summarizing the major findings. This is to include a heading for each question asked from the data as well as a short description of the findings and any relevant plots.
+    *Bonus* We were to use at least one API with data pertinent to the primary research questions
 
-**RESULT: The fact that temperature increases as one travels closer to the equator and decreases as one moves further away from it was established with empirical data. None of the other variables had an enduring or marked correlation with latitude.**
 
-It should be stated at the outset that the generalizability of the findings across all plots is limited because the plots represent a single day, 5/19/2023. Since the weather fluctuates in any locale, this day may exhibit atypical meteorological patterns in many places and thus not convey more enduring weather features. Analyzing data over time would address this small-n problem. I have endeavored to partly approximate this approach by running the code several times over four days: the hemispheric relationships between latitude and temperature remain noticeable and enduring, while lines of best fit for latitude vs. the other weather variables often differ in direction and r score, though each holding at a low absolute value. This meshes with my ultimate conclusion: *there is a reliable correlation only between latitude and temperature.*
+As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
 
-Basing the analysis on the citipy dataset may overrepresent regions that have more major cities and correspondingly underrepresent those with fewer large cities or fewer cities in general. When "eyeballed", it appears that the datapoint positions blanket the entire earth, but there could be an urban bias buried in the data that may be partially mitigated by weighting regions by the number and size of their cities.
-
-**For VacationPy:** City data from citipy was plotted on a map of the world. Cities characterized by the author's ideal weather conditions were isolated and displayed in tabular form. Hotels within a set proximity to each city were pulled in from https://api.geoapify.com/v2/places, with the list of city by hotel (or of failures to match cities with hotels) noted - as instructed, the results were capped at approximately 10 hotels to limit excess API calls. The author's ideal cities were then plotted on another map.
-
--- OBSERVATIONS FROM THE ANALYSIS ARE ALSO PROVIDED IN THE WEATHERPY FILE OF THE JUPYTER NOTEBOOK FILE
+•	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
+•	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the weekday rush hours? (8-9am and 5-6pm EST).
+•	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
+•	Do crashes caused by inattentive driving also result in the most fatalities, the most injuries, or both?
 
 
 **2-INSTALLATION**
@@ -33,15 +37,16 @@ The project files have an .ipynb extension, so they are meant to be viewed in Ju
   
 *Dependencies -*
 
-pandas,
-sodapy.Socrata,
+json,
 matplotlib.pyplot,
 numpy,
+os,
+pandas,
 requests,
-time,
 scipy.stats.linregress,
-json,
-os
+sodapy.Socrata,
+time,
+warnings
 
 *Items in plots subfolder =*
 
