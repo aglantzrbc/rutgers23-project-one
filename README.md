@@ -73,10 +73,10 @@ This project assumes that the source .csv file listed above retains its original
 
 Group 7 consisists of the following participants:
 
-Abraham, Susan J.,
-Glantz, Adam,
-Kabir, Debbie,
-Mysllinj, Andi
+    •	Abraham, Susan J.,
+    •	Glantz, Adam,
+    •	Kabir, Debbie,
+    •	Mysllinj, Andi
 
 
 **4-ACKNOWLEDGEMENTS**
