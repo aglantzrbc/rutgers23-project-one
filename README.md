@@ -27,6 +27,8 @@ As discovered by a preliminary exploration of recent New York Police Department 
     •	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
     •	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the weekday rush hours? (8-9am and 5-6pm EST).
     •	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
+    •	Does a particular class of vehicle associate the most with distracted vehicular driving?
+    •	Is there a greater percentage of distracted-driving-related accidents in particular boros of the five boros of New York City vs others?
     •	Do crashes caused by inattentive driving also result in the most fatalities, the most injuries, or both?
 
 The importance of this study is as follows:
