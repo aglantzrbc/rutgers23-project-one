@@ -13,13 +13,13 @@ Rutgers23 Data Science PROJECT ONE Module 7 Group 7
 
 We were divided into random groups and tasked with creating and presenting a professional-looking research mini-project with the following criteria:
 
-    Use Pandas to clean and format the datset(s).
-    Create a Jupyter notebook describing the data exploration and cleanup process.
-    Create a Jupyter notebook illustrating the final data analysis.
-    Use matplotlib to create six to eight visualizations (ideally: two per question) of the data.
-    Save .png images of the visualizations to distribute to the class and instructional team, and for inclusion in the presentation.
-    Create a write-up summarizing the major findings. This is to include a heading for each question asked from the data as well as a short description of the findings and any relevant plots.
-    *Bonus* We were to use at least one API with data pertinent to the primary research questions
+    •	Use Pandas to clean and format the datset(s).
+    •	Create a Jupyter notebook describing the data exploration and cleanup process.
+    •	Create a Jupyter notebook illustrating the final data analysis.
+    •	Use matplotlib to create six to eight visualizations (ideally: two per question) of the data.
+    •	Save .png images of the visualizations to distribute to the class and instructional team, and for inclusion in the presentation.
+    •	Create a write-up summarizing the major findings. This is to include a heading for each question asked from the data as well as a short description of the findings and any relevant plots.
+    •	As a bonus, we were to use at least one API with data pertinent to the primary research questions
 
 
 As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 to 7/2022) were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
@@ -45,16 +45,16 @@ The project files have an .ipynb extension, so they are meant to be viewed in Ju
   
 *Dependencies -*
 
-json,
-matplotlib.pyplot,
-numpy,
-os,
-pandas,
-requests,
-scipy.stats.linregress,
-sodapy.Socrata,
-time,
-warnings
+    •	json,
+    •	matplotlib.pyplot,
+    •	numpy,
+    •	os,
+    •	pandas,
+    •	requests,
+    •	scipy.stats.linregress,
+    •	sodapy.Socrata,
+    •	time,
+    •	warnings
 
 *Resources -*
     •	The City of New York provides a JSON on vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data is current within the last 24 hours.
