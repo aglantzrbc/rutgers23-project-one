@@ -22,12 +22,20 @@ We were divided into random groups and tasked with creating and presenting a pro
     *Bonus* We were to use at least one API with data pertinent to the primary research questions
 
 
-As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
+As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 to 7/2022) were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
 
-•	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
-•	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the weekday rush hours? (8-9am and 5-6pm EST).
-•	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
-•	Do crashes caused by inattentive driving also result in the most fatalities, the most injuries, or both?
+    •	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
+    •	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the weekday rush hours? (8-9am and 5-6pm EST).
+    •	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
+    •	Do crashes caused by inattentive driving also result in the most fatalities, the most injuries, or both?
+
+The importance of this study is as follows:
+
+    •	It is uncontroversial and in everyone’s interest to understand when and why vehicular crashes happen in the hope of eliminating them.
+    •	The role of handheld cellphones as a distraction leading to vehicular accidents is an issue of topical concern.
+    •	Analysis like this may be used as a resource for deciding on the introduction of self-driving vehicles in the future.
+    •	New York City has particular relevance as the largest city in the United States with the largest potential population of cases, and can serve as a model for similar studies in other cities.
+    •	New York City is the closest major city to the historical main campus of Rutgers University, where this study is being carried out.
 
 
 **2-INSTALLATION**
@@ -48,11 +56,9 @@ sodapy.Socrata,
 time,
 warnings
 
-*Items in plots subfolder =*
-
-
 *Resources -*
-    https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
+•	The City of New York provides a JSON on vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data is current within the last 24 hours.
+•	The data was collected by the New York City Police Department and was first made available in 2014. It covers the period from 4/2016 through 7/2022.
 
 **NOTES**
 
