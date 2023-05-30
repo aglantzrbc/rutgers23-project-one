@@ -57,13 +57,7 @@ The project files have an .ipynb extension, so they are meant to be viewed in Ju
     •	warnings
 
 *Resources -*
-    •	The City of New York provides a JSON on vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data is current within the last 24 hours.
-    •	The data was collected by the New York City Police Department and was first made available in 2014. It covers the period from 4/2016 through 7/2022.
-
-**NOTES**
-
-We were instructed to put WeatherPy and VacationPy in their own subdirectories, but I kept them at top level for ease of access.
-
+    •	The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
 
 **3-CONTRIBUTING**
 
