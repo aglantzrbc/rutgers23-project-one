@@ -1,14 +1,13 @@
-# NYC Data 'regular' API Key:
+# Regular API Key
 api_key_regular = "7lf97f74nqt60adppd7r1nqq6"
 
-# NYC Data 'secret' API Key:
-api_key_secret = "60tzfq44v091n2v4urv8zfvsbjaod581757y1ne1k7svxvbez0"
+# Secret API Key
+api_key_secret = "Y60tzfq44v091n2v4urv8zfvsbjaod581757y1ne1k7svxvbez0"
 
-# NYC Data 'regular' App Token:
+# Regular App Token
 app_token_regular = "llfjtZfD4YZbahRfTY6fpZ8xh"
 
-# NYC Data 'secret' App Token:
+# Secret App Token
 app_token_secret = "YzhGo5l9Tvz3h_JxvJrlHrwy9YhxtLWleg43"
 
-# Pandas info accessible via one of the tabs at the bottom of this page: https://dev.socrata.com/foundry/data.cityofnewyork.us/h9gi-nx95
-
+# source website = https://data.cityofnewyork.us/profile/edit/developer_settings
