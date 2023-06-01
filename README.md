@@ -22,11 +22,20 @@ We were divided into random groups and tasked with creating and presenting a pro
     •	As a bonus, we were to use at least one API with data pertinent to the primary research questions
 
 
+<<<<<<< HEAD
 As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 to 7/2022) were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
+=======
+As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 through 7/2022) were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
+>>>>>>> main
 
     •	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
     •	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the weekday rush hours? (8-9am and 5-6pm EST).
     •	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
+<<<<<<< HEAD
+=======
+    •	Does a particular class of vehicle associate the most with distracted vehicular driving?
+    •	Is there a greater percentage of distracted-driving-related accidents in particular boros of the five boros of New York City vs others?
+>>>>>>> main
     •	Do crashes caused by inattentive driving also result in the most fatalities, the most injuries, or both?
 
 The importance of this study is as follows:
@@ -45,6 +54,7 @@ The project files have an .ipynb extension, so they are meant to be viewed in Ju
   
 *Dependencies -*
 
+<<<<<<< HEAD
     •	json,
     •	matplotlib.pyplot,
     •	numpy,
@@ -55,6 +65,21 @@ The project files have an .ipynb extension, so they are meant to be viewed in Ju
     •	sodapy.Socrata,
     •	time,
     •	warnings
+=======
+    json,
+    matplotlib.pyplot,
+    numpy,
+    os,
+    pandas,
+    requests,
+    scipy.stats.linregress,
+    sodapy.Socrata,
+    time,
+    warnings
+
+*Items in plots subfolder =*
+
+>>>>>>> main
 
 *Resources -*
     •	The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
