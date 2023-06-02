@@ -1,3 +1,7 @@
+MASTER.PYTHON.FILE-Copy1
+api_keys
+__pycache__/
+.ipynb_checkpoints/
 do_not_use-test.ipynb
 do-not-use2.ipynb
 initial_python_file-Copy1.ipynb
