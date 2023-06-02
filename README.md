@@ -43,9 +43,10 @@ The importance of this study is as follows:
 
 **2-INSTALLATION**
 
-    •	This project is coded in Python 3.10.9
+    •	This project is coded in Python 3.10.9.
+    •	Reviewers should use the code in the "main" branch of the GitHub repositority only.
     •	The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
-    •	The project requires the dependencies listed below. Pip installs should preceed imports where necessary
+    •	The project requires the dependencies listed below. Pip installs should precede imports where necessary.
     •	The project assumes there is a folder called "plots" one level below the code file that contains the file "map_crashes.png"
 
   
@@ -62,8 +63,7 @@ The importance of this study is as follows:
     •	time,
     •	warnings
 
-*Resources -*
-    •	The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
+*Resources - The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
 
 **3-CONTRIBUTING**
 
