@@ -14,8 +14,7 @@ Rutgers23 Data Science PROJECT ONE Module 7 Group 7
 We were divided into random groups and tasked with creating and presenting a professional-looking research mini-project with the following criteria:
 
     •	Use Pandas to clean and format the datset(s).
-    •	Create a Jupyter notebook describing the data exploration and cleanup process.
-    •	Create a Jupyter notebook illustrating the final data analysis.
+    •	Create a Jupyter notebook describing the data exploration and cleanup process, and illustrating the final data analysis.
     •	Use matplotlib to create six to eight visualizations (ideally: two per question) of the data.
     •	Save .png images of the visualizations to distribute to the class and instructional team, and for inclusion in the presentation.
     •	Create a write-up summarizing the major findings. This is to include a heading for each question asked from the data as well as a short description of the findings and any relevant plots.
@@ -64,6 +63,7 @@ The importance of this study is as follows:
     •	warnings
 
 *Resources - The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
+
 
 **3-CONTRIBUTING**
 
