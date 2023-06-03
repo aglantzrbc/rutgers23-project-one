@@ -20,14 +20,12 @@ We were divided into random groups and tasked with creating and presenting a pro
     •	Create a write-up summarizing the major findings. This is to include a heading for each question asked from the data as well as a short description of the findings and any relevant plots.
     •	As a bonus, we were to use at least one API with data pertinent to the primary research questions
 
-As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 to 7/2022) were caused by *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
+As discovered by a preliminary exploration of recent New York Police Department (NYPD) traffic data made public by the City of New York, most significant vehicular crashes in New York City during the period of study (4/2016 to 7/2022) were associated with *inattentive driving*. We discussed the observable implications of this discovery and asked related questions:
 
-    •	What is the relative percentage of significant crashes caused by inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common plurality, or even ubiquitous?
-    •	Does this relationship hold over time of day: e.g., does the same general percentage of crashes caused by inattentive driving hold during the entire day, and/or the weekday rush hours?.
-    •	Does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
-    •	Do crashes caused by inattentive driving also result in the most injuries to all classes of persons involved: motorist, pedestrian, and cyclist?
-    •	Are vehicular collisions more common for particular kinds of vehicles
-    •	Are vehicular collisions more prevalent in particular boroughs of the city?
+    •	What is the relative percentage of significant crashes associated with inattentive/distracted driving vs. other causes? In other words, is distracted / inattentive driving a little more common than other phenomena as a correlate of vehicular crashes or is it much more common, or even ubiquitous?
+    •	Does this relationship hold over time of day: e.g., does the same general percentage of crashes contributed to by inattentive driving hold during the entire day, and/or the weekday rush hours?; Also, does this relationship hold over time of year: e.g., in the summer as well as the typically icy winter season?
+    •	Do crashes also result in the most injuries to all classes of persons involved: i.e., the motorist only, or pedestrians and cyclists?
+    •	Are vehicular collisions by distracted drivers more common for particular kinds of vehicles? Are they more prevalent in particular boroughs of the city?
 
 
 The importance of this study is as follows:
@@ -61,7 +59,7 @@ The importance of this study is as follows:
     •	time,
     •	warnings
 
-*Resources -* The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12.
+*Resources -* The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12. Definitions for the categories associated with accidents are not readily available.
 
 
 **3-CONTRIBUTING**
