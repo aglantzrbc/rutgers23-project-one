@@ -5,15 +5,20 @@ Rutgers23 Data Science PROJECT ONE Module 7 Group 7
 
 **TABLE OF CONTENTS**
 1. Project Description
+
     a. Task description
     b. Relevance of the Study
     c. Research Questions and Findings
     d. Ideas for Future Studies
+
 2. Installation
+
     a. Prerequisites
     b. Dependencies
     c. Resources
+
 3. Contributing
+
 4. Acknowledgements
 
 
