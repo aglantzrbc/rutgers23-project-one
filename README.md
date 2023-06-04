@@ -44,6 +44,8 @@ The importance of this study is as follows:
     •	The project files have an .ipynb extension, so they are meant to be viewed in Jupyter Notebook.
     •	The project requires the dependencies listed below. Pip installs should precede imports where necessary.
     •	The project assumes there is a folder called "plots" one level below the code file that contains the file "map_crashes.png"
+    •	The project is associated with an app key file, currently untracked, which is necessary to access the data
+
 
   
 *Dependencies -*
