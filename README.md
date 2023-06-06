@@ -55,7 +55,7 @@ As discovered by a preliminary exploration of recent New York Police Department 
 
     •	Do crashes also result in the most injuries to all classes of persons involved: i.e., the motorist only, or pedestrians and cyclists?
         - FINDING: This relationship of distracted driving as the main correlate of accidents holds whether only the motorist is injured or killed, or if pedestrians and/or cyclists are involved, though precipitating conditions after distracted driving vary in volume. For example, failure to yield the right of way is almost as salient as distracted driving when pedestrians are involved (i.e., 10 incidents vs. 12). As a related and surprising finding: the NYPD reports only four fatalities from road collisions over the period of the study, and only one for which full data are available. We are frankly skeptical of this report.
-        
+
     •	Are vehicular collisions by distracted drivers more common for particular kinds of vehicles? Are they more prevalent in particular boroughs of the city?
         - FINDING: The general vehicular class of *Sedans* have the largest volume of accidents in the study, which is interesting. As one consideration: Taxis (which are presumably exclusive of Sedans) are on the road for long periods, and presumably the longer one is driving, the more chance of an accident, but relatively few collisions involve taxis. Moreover, the volume of crashes tracks with the population of each borough, with Brooklyn (the most populous) suffering the most accidents, Queens (the second most populous) witnessing the second largest volume of crashes, etc. This is not necessarily intuitive because one might expect Manhattan, a small island where a large number of vehicles transit each day, could host the largest number of accidents
 
@@ -92,7 +92,7 @@ As discovered by a preliminary exploration of recent New York Police Department 
 
 *Resources -* 
 
-   •	The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12. Definitions for the categories associated with accidents are not readily available. Requests for this information to the site administrator were directed by them to the NYPD, and the NYPD did not respond to our entreaty.
+    •	The City of New York provides a JSON of NYPD-recorded vehicular accidents that result in an injury, death, or at least $1,000 in damage here: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95. It can also be downloaded as a csv file. At this writing, the data covers the period 2016-04-16 to 2022-07-12. Definitions for the categories associated with accidents are not readily available. Requests for this information to the site administrator were directed by them to the NYPD, and the NYPD did not respond to our entreaty.
 
 
 **3-CONTRIBUTING**
